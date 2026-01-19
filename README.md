@@ -1,6 +1,6 @@
-# Public Defender Evidence Search
+# Manifold
 
-A powerful, AI-driven semantic search tool designed for public defenders to quickly analyze and search through legal discovery documents (PDFs). Unlike simple keyword searches, this tool uses natural language processing to understand the *meaning* of your query, helping you find relevant evidence even if the exact words don't match.
+A powerful, AI-driven semantic search tool designed to quickly analyze and search through PDF documents. Unlike simple keyword searches, this tool uses natural language processing to understand the *meaning* of your query, helping you find relevant evidence even if the exact words don't match.
 
 ![Project Status](https://img.shields.io/badge/Status-Prototype-orange)
 ![Python](https://img.shields.io/badge/Backend-FastAPI-green)
@@ -45,7 +45,7 @@ Before setting up, ensure you have the following installed:
 ### 1. Clone the Repository
 ```bash
 git clone <repository-url>
-cd pd-evidence-search
+cd manifold
 ```
 
 ### 2. Backend Setup
@@ -115,7 +115,7 @@ npm run dev
 ## 📂 Project Structure
 
 ```
-pd-evidence-search/
+manifold/
 ├── backend/
 │   ├── main.py              # FastAPI entry point & endpoints
 │   ├── ocr_processor.py     # PDF reading & OCR logic
